@@ -61,7 +61,7 @@
 
 예전에 접속한 브라우저인 경우 서버에 해당 자원을 요청하는 것이 아닌 로컬 캐시에 저장된 곳에서 가져와 속도를 올리는데에 사용하게 됩니다.
 
-대표적으로 <img src=””> <script src=””> <link src=””>가 될 수 있습니다.
+대표적으로 `<img src=””>` `<script src=””>` `<link src=””>`가 될 수 있습니다.
 
 POST Method 에서는 캐시기능을 지원하지는 않지만, 헤더에 `Expires`와 `Cache-Control header` 를 이용하여 caching을 구현하여 응답할 수 있습니다.
 
